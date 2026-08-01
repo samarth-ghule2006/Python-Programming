@@ -1,0 +1,14 @@
+def CheckEven(No):
+    if (No % 2 == 0):
+        print("It is Even Number")
+    else:
+        print("It is Odd number")
+    
+def main():
+    print("Enter the number :")
+    Value = int(input())
+    
+    CheckEven(Value)
+    
+if __name__ == "__main__":
+    main()
